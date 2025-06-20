@@ -1,4 +1,3 @@
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  alert("Thank you! GRT will get back to you shortly.");
+document.querySelector("form").addEventListener("submit", function(e) {
+  alert("Thank you! We will contact you shortly.");
 });
