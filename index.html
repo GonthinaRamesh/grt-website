@@ -2,69 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- ✅ SEO Meta Tags -->
-  <title>GRT Manpower Supply & Consultancy Services</title>
-  <meta name="description" content="We provide professional manpower supply, recruitment, consultancy, and project support services in Visakhapatnam and across India.">
-  <meta name="keywords" content="manpower supply, consultancy services, labour contractor, recruitment agency, project manpower, Visakhapatnam, India">
-  <meta name="author" content="GRT Manpower Supply & Consultancy Services" />
-
-  <!-- ✅ Google Site Verification -->
-  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
-
-  <!-- ✅ Favicon (optional) -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-  <!-- ✅ CSS Styles (link your stylesheet here if any) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GRT Manpower & Consultancy</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- 🖼 Company Logo -->
   <header>
-    <img src="logo.png" alt="GRT Manpower Supply Logo" style="height: 100px;" />
-    <h1>GRT Manpower Supply & Consultancy Services</h1>
-    <p>We deliver manpower, recruitment, and consultancy services across India.</p>
+    <nav>
+      <div class="logo"><img src="logo.png" alt="GRT Logo" height="40"> GRT Consultancy</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- 📞 Contact Section -->
-  <section>
+  <section id="home" class="hero">
+    <h1>GRT Manpower Supply & Consultancy Services</h1>
+    <p>Trusted partner for skilled manpower & professional advisory services.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-boxes">
+      <div class="box">
+        <h3>Manpower Supply</h3>
+        <p>We provide trained and verified workforce across multiple industries including construction, shipbuilding, manufacturing, and logistics.</p>
+      </div>
+      <div class="box">
+        <h3>HR & Recruitment</h3>
+        <p>Efficient recruitment services including talent sourcing, interviews, onboarding, and workforce management support.</p>
+      </div>
+      <div class="box">
+        <h3>Business Consultancy</h3>
+        <p>Advisory on organizational structure, process optimization, labor laws compliance, and strategic planning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About GRT</h2>
+    <p>GRT Manpower Supply & Consultancy Services is a trusted agency offering comprehensive manpower and consulting solutions across India. With a dedicated team and wide network, we help businesses streamline operations and scale with the right people and strategies.</p>
+  </section>
+
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="team1.jpg" alt="Team Member">
+        <h4>Ramesh G.</h4>
+        <p>Founder & Managing Director</p>
+      </div>
+      <div class="member">
+        <img src="team2.jpg" alt="Team Member">
+        <h4>Sneha K.</h4>
+        <p>HR & Recruitment Lead</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p>📍 Gajuwaka, Visakhapatnam</p>
-    <p>📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>📱 Phone: +91-XXXXXXXXXX</p>
-  </section>
-
-  <!-- 🌐 Google Map Embed -->
-  <section>
-    <h3>Our Location</h3>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_CODE_HERE"
-      width="100%"
-      height="300"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </section>
-
-  <!-- 📝 Contact Form -->
-  <section>
-    <h3>Send us a message</h3>
-    <form name="contact" method="POST" data-netlify="true">
+    <form action="https://formspree.io/f/your-form-id" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
+      <button type="submit">Send Message</button>
     </form>
+    <div class="contact-info">
+      <p><strong>Address:</strong> 24-101-16/1, Gonthinavani Palem, Old Gajuwaka, Visakhapatnam - 530026, Andhra Pradesh, India</p>
+      <p><strong>Phone:</strong> +91 98663 72376</p>
+      <p><strong>Email:</strong> grt.consultancy.manpowersupply@gmail.com</p>
+      <p><a href="https://wa.me/919866372376" target="_blank">📞 Chat with us on WhatsApp</a></p>
+      <iframe src="https://www.google.com/maps?q=24-101-16/1,+Old+Gajuwaka,+Visakhapatnam&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
   </section>
 
-  <!-- 👣 Footer -->
   <footer>
     <p>&copy; 2025 GRT Manpower Supply & Consultancy Services. All rights reserved.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
